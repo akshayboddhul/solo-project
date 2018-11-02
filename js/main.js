@@ -33,10 +33,11 @@ $(function() {
           {
             width: $(this).attr("aria-valuenow") + "%"
           },
-          1000
+          2000
         );
       });
-      this.destory();
+
+      this.destroy();
     },
     {
       offset: "bottom-in-view"
